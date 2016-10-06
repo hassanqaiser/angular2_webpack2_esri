@@ -1,0 +1,24 @@
+html,
+body,
+esri-map .map {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.map-col {
+  padding: 0;
+}
+
+esri-map esri-search .arcgisSearch {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 15px;
+  left: 65px;
+}
+
+.pane{
+      padding: 1em;
+    }
